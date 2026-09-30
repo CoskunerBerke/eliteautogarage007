@@ -87,7 +87,7 @@ The `dev` and `build` scripts run with the `--webpack` flag instead of Turbopack
 | Services | `src/components/Services.tsx` |
 | About checklist | `src/components/About.tsx` |
 | Gallery images and titles | `src/components/Gallery.tsx` |
-| Phone, WhatsApp, address, working hours, map | `src/components/Contact.tsx` |
+| Phone, WhatsApp, address, working hours, map | `src/components/Contact.tsx` (the phone / WhatsApp number is also hard-coded in `Header.tsx`, `Hero.tsx`, `Services.tsx` and `Footer.tsx`) |
 | Page title, description, keywords, OG image | `src/app/layout.tsx` |
 
 ---
@@ -135,7 +135,7 @@ npm run build && npm run start
 - Hizmetler → `src/components/Services.tsx`
 - Hakkımızda listesi → `src/components/About.tsx`
 - Galeri → `src/components/Gallery.tsx`
-- Telefon, WhatsApp, adres, çalışma saatleri, harita → `src/components/Contact.tsx`
+- Telefon, WhatsApp, adres, çalışma saatleri, harita → `src/components/Contact.tsx` (telefon / WhatsApp numarası `Header.tsx`, `Hero.tsx`, `Services.tsx` ve `Footer.tsx` içinde de geçer)
 - Sayfa başlığı, SEO ve OG görseli → `src/app/layout.tsx`
 
 ---
